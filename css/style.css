@@ -20,19 +20,17 @@ header h1 {
 }
 
 nav {
-    float: left;
     width: 100%;
     background: #333;
 }
 
 nav ul li {
     list-style-type: none;
-    display: inline;
+    display: inline-block;
 }
 
 nav li a {
     display: block;
-    float: left;
     padding: 5px 10px;
     color: #fff;
     text-decoration: none;
@@ -40,13 +38,12 @@ nav li a {
 }
 
 nav li a:hover {
-    background: #383;
+    background: #cce;
 }
 
 /*MAIN*/
 
-#content {
-    clear: left;
+main {
     padding: 20px;
 }
 
@@ -72,7 +69,6 @@ aside ul li {
 /*FOOTER*/
 
 footer {
-    clear: left;
     background: #ccc;
     text-align: right;
     padding: 20px;
